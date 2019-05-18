@@ -17,6 +17,7 @@ Now, let's cover all the commands.
 `tm begin [stage name]` sets the current stage name 
 
 &nbsp;
+
 *Timemaster stores all the settings in `~/tm.set`. Each stage has its data stored in a different file inside the saving directory.*
 ### start and stop
 `tm start [activity]` and `tm stop [activity]` start and stop an activity.
@@ -50,5 +51,7 @@ As stated above, these settings than take effect when **recap**itulating a stage
 *Wages are not stage specific (they are stored in the `~/tm.set` config file), so you don't have to reset them every time you **begin** a new stage.*
 
 &nbsp;
+
 &nbsp;
+
 **IMPORTANT NOTE: You should only use letters from the English alphabet for activity, stage, and unit names. Other characters are not permitted.**
